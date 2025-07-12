@@ -1,0 +1,46 @@
+{
+  "api_keys": {
+    "binance_api_key": "s1rbvtukM68woZWCRBxu6uYkoCbObdLTk5D08phi74s0nApBb8Vg3wivRVTwGjmi",
+    "binance_api_secret": "pQ0pkwqFTeu9xnN3RN7R18fw8NaHvh8Z4IrTkRgrIIQEGdKmz27KgaP7KTXO3Df8"
+  },
+  "app_settings": {
+    "pariteler": ["BTCUSDT", "ETHUSDT", "SOLUSDT", "BNBUSDT", "AVAXUSDT"],
+    "zaman_araligi": "1h",
+    "guncelleme_siklgi_saniye": 60
+  },
+  "indicator_settings": {
+    "min_data_points": 200,
+    "ema": { "periods": [20, 50, 200] },
+    "macd": { "fast": 12, "slow": 26, "signal": 9 },
+    "rsi": { "period": 14, "overbought": 70, "oversold": 30 },
+    "stoch_rsi": { "period": 14 },
+    "bollinger_bands": { "period": 20, "std_dev": 2 },
+    "cci": { "period": 20 },
+    "adx": { "period": 14, "threshold": 25 },
+    "supertrend": { "period": 7, "multiplier": 3 },
+    "williams_r": { "period": 14 },
+    "obv": { "period": 20 }
+  },
+  "skor_agirliklar": {
+    "ema": 3,
+    "macd": 2,
+    "rsi": 2,
+    "stoch_rsi": 1,
+    "bollinger_bands": 1,
+    "cci": 1,
+    "adx": 4,
+    "williams_r": 1,
+    "obv": 2,
+    "vwap": 3,
+    "ichimoku": 4,
+    "candlestick": 3,
+    "patterns": 5,
+    "divergence": 4,
+    "funding_rate": 2
+  },
+  "strategy_thresholds": {
+    "momentum_scalp": 5,
+    "trend_continuation": 8,
+    "reversal_swing": 12
+  }
+}
